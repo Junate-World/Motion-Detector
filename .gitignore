@@ -1,0 +1,28 @@
+
+### `.gitignore` for the Project
+
+Here’s a `.gitignore` file to exclude unnecessary files from version control:
+
+```gitignore
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment and dependencies
+env/
+venv/
+*.env
+*.venv
+*.egg-info/
+
+# OpenCV cache or generated files
+*.log
+*.cache
+*.png
+*.jpg
+*.jpeg
+
+# OS-specific files
+.DS_Store
+Thumbs.db
